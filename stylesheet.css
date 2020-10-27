@@ -68,10 +68,10 @@ li > a {
 .cover-link {
   display: block;
   margin: 9px;
-  padding-top: 34%;
   text-decoration: none;
   color: white;
   position: absolute;
+  bottom: 0;
 }
 
 h2 {
