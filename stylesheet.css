@@ -9,6 +9,9 @@ ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.hamflex {
   position: absolute;
   right: 0;
 }
@@ -20,7 +23,7 @@ ul {
   top: 0;
   background: #fff;
   border-top: 1px solid rgba(189, 189, 189, 0.2);
-  border-bottom: 1px solid rgba(189, 189, 189, 0.2);
+  border-bottom: 11px solid rgba(189, 189, 189, 0.2);
   align-self: center;
 }
 
@@ -57,7 +60,7 @@ li.list {
 }
 
 .cover {
-  padding: 4px;
+  padding: 0 4px 4px;
   margin: 0 auto;
 }
 
@@ -121,7 +124,7 @@ li.insideauthor {
 
 .news {
   max-width: 92%;
-  margin: 5% auto;
+  margin: 13% auto 0;
   padding: 5%;
 }
 
