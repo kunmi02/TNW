@@ -40,3 +40,51 @@ li > a {
   padding: 16px 20px;
   width: 70px;
 }
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: 3px solid #8AC007;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  /* max-height: 375px; */
+}
+
+.links {
+  text-align: center;
+}
+
+.links li {
+  color: #aaa;
+  display: block;
+}
+
+.flex-display {
+  display: flex;
+}
+
+ .fa {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin: 3px;
+}
+
+.copyright{
+  /* background-color: #000; */
+  margin: 0 auto;
+  
+}
+
+.copyright img{
+  height: 8px;
+}
+
+
+
+
+
+
