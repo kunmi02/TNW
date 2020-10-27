@@ -130,6 +130,7 @@ li.insideauthor {
 
 .latestnews {
   font-size: 24px;
+  font-family: "Maquette", Helvetica Neue, Arial, sans-serif;
   color: #f42;
   padding-left: 8px;
 }
@@ -169,4 +170,35 @@ li.insideauthor {
   display: block;
   font-size: 12px;
   margin-left: 8px;
+}
+
+.pricestyle {
+  font-size: 12px;
+  margin-left: 8px;
+  opacity: 40%;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.price {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: lighter;
+  opacity: 1;
+}
+
+.all-deals {
+  position: absolute;
+  right: 0;
+  top: 11px;
+  color: #f42;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.dealwrapper {
+  position: relative;
 }
