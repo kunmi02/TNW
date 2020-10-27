@@ -55,25 +55,6 @@ li.list {
 .navbarwrap > ul {
   flex: 2;
 }
-/* li.list {
-  display: inline;
-  border-left: 1px solid #eee;
-  float: left;
-  height: 18px;
-  padding: 16px;
-  width: 48px;
-}
-
-.headericons {
-   display: block; 
-  height: 48px;
-  width: 48px;
-  text-align: center;
-}
-
- */
-
-/* cover images */
 
 .cover {
   padding: 4px;
