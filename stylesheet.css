@@ -133,7 +133,7 @@ li.insideauthor {
 }
 
 .newswrapper {
-  margin-top: 23%;
+  margin-top: 100px;
 }
 
 .latestnews {
@@ -178,6 +178,10 @@ li.insideauthor {
   display: block;
   font-size: 12px;
   margin-left: 8px;
+}
+
+.padding-top-zero {
+  padding-top: 0;
 }
 
 /* deals section */
