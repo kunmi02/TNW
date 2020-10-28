@@ -48,9 +48,7 @@ ul {
 
  footer{
   position: relative;
-  width: 100%;
   bottom: 0;
-  border: 3px solid #8AC007;
   text-align: center;
   display: grid;
   grid-template-rows: 50% 50%;
@@ -70,6 +68,11 @@ ul {
   border-radius: 50%;
 }
 
+.social-link-wrapper {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
 .social-link li a {
   color: white;
   display: table-cell;
@@ -81,8 +84,13 @@ ul {
 }
 
 .links li {
-  display: inline-block;
-  color: aliceblue;
+font-weight: 500;
+text-transform: uppercase;
+display: inline-block;
+font-size: 13px;
+line-height: 24px;
+margin: 0 4px;
+
 }
 
 .copyright{
@@ -90,8 +98,13 @@ ul {
   color: #aaa;
   font-size: 13px;
   padding: 2.5em 0;
-   /* line-height: 2px; */
-}
+  }
+
+  .copyright-wrapper{
+    margin: 0 auto;
+        max-width: 1192px;
+        padding: 0 20px;
+  }
 .copyright img{
   height: 8px;
 }
@@ -219,4 +232,11 @@ li.insideauthor {
   display: block;
   font-size: 12px;
   margin-left: 8px;
+}
+
+
+.wrapper{
+  margin: 0 auto;
+max-width: 1192px;
+padding: 0 20px;
 }
