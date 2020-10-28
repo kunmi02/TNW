@@ -295,6 +295,10 @@ p.investment-text {
   line-height: 22px;
 }
 
+.fund-text:hover {
+  color: #000;
+}
+
 .fund-essentials {
   position: relative;
 }
@@ -326,4 +330,93 @@ p.investment-text {
 
 .display-hide {
   display: none;
+}
+
+/* footer style */
+
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  max-height: 375px;
+}
+
+.fa {
+  height: 16px;
+  width: 16px;
+  color: white;
+}
+.social-link li {
+  display: inline-block;
+  background-color: #333333;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.social-link-wrapper {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.social-link li a {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+}
+
+.links li {
+  font-weight: 500;
+  font-family: "Shentox", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+
+.copyright {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 3em 0;
+}
+
+.copyright-wrapper {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 20px;
+}
+.copyright img {
+  height: 8px;
+}
+
+.stackpath {
+  color: white;
+}
+
+.footer-links {
+  color: rgba(173, 173, 173, 1);
+}
+
+.footer-links:hover {
+  color: white;
+}
+
+p.amsterdam {
+  margin: 0;
+  padding: 0;
+}
+
+ul.social-link {
+  margin-bottom: 1.5em;
+}
+
+.fa:hover {
+  background-color: rgba(0, 0, 0, 1);
 }
