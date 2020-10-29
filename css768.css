@@ -17,6 +17,27 @@ body {
   background-size: cover;
 }
 
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.wrappernav {
+  border-bottom: none;
+}
+
+.border768 {
+  border-bottom: 61px solid rgba(189, 189, 189, 0.2);
+}
+
+.topspace {
+  display: none;
+}
+
+li.list {
+  padding: 13px 16px;
+}
+
 /* cover */
 
 .cover {
@@ -57,9 +78,24 @@ ul.author {
   padding-top: 8px;
 }
 
-li.no-share {
+li.no-share768 {
   display: none;
 }
+
+.cover-link768 {
+  bottom: 3em;
+}
+
+h2.cover-title768 {
+  line-height: 1.3;
+  font-size: 32px;
+}
+
+.cover-header768 {
+  font-size: 20px;
+  padding-left: 1px;
+}
+
 /* articlequery */
 
 .article-grid {
@@ -78,7 +114,7 @@ li.no-share {
 
 .icon-article {
   width: 100%;
-  height: 115px;
+  height: 10%;
 }
 
 .article-link,
