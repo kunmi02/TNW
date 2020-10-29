@@ -35,7 +35,7 @@
 👤 **Author2**
 
 - Github: [@kunmi02]
-- Linkedin: [akinkunmi006]
+- Twitter: [@akinkunmi006]
 
 ## 🤝 Contributing
 
