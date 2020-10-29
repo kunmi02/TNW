@@ -1,4 +1,4 @@
-## Cloning the TNW(tnw.com) Homepage using a mobile first approach different positioning methods and making the webpage responsive.
+## Cloning the TNW(https://thenextweb.com/) Homepage using a mobile first approach different positioning methods and making the webpage responsive.
 
     This is a project that clones the TNW Home Page. The purpose of this project is to practice positioning, gradient & media queries.
 
