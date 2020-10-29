@@ -434,7 +434,7 @@ ul.social-link {
 /* fork */
 
 .fork {
-  margin-top: 35px;
+  margin-top: 0px;
 }
 
 .fork-image {
@@ -519,8 +519,4 @@ ul.social-link {
 
 .fork-container {
   padding-top: 19px;
-}
-
-.container1 {
-  padding-top: 0px;
 }
