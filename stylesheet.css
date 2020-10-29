@@ -3,7 +3,7 @@ body {
   padding: 0;
   color: #555;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  max-width: 768px;
+  max-width: 100vw;
 }
 
 .bigscreen-menu,
