@@ -1,15 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  color: #555555;
+  color: #555;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   max-width: 1023px;
 }
+
 .topspace {
   margin-top: 3.85em;
+  display: none;
 }
 
 /* header */
+
+.social-link > li > a {
+  height: 50px;
+  width: 50px;
+}
 
 .navlogo:hover > a {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
@@ -25,17 +32,14 @@ body {
 .wrappernav {
   border-bottom: none;
 }
-.bigscreen-menu,.big-screen-menu-2{
+
+.bigscreen-menu,
+.big-screen-menu-2 {
   display: none;
 }
-
 
 .border768 {
   border-bottom: 61px solid rgba(189, 189, 189, 0.2);
-}
-
-.topspace {
-  display: none;
 }
 
 li.list {
@@ -103,10 +107,10 @@ h2.cover-title768 {
 /* articlequery */
 
 .article-grid {
-  padding: 0px;
+  padding: 0;
   display: grid;
   grid-row-gap: 20px;
-  grid-column-gap: 0px;
+  grid-column-gap: 0;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
@@ -151,17 +155,15 @@ h2.cover-title768 {
 }
 
 .container1 {
-  padding-top: 0px;
-  margin-top: 0px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 /* hard fork */
 
 .fork {
-  padding: 0px;
+  padding: 0;
   display: grid;
-  grid-row-gap: 0px;
-  grid-column-gap: 0px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 8px;
@@ -187,13 +189,8 @@ h2.latest-fork {
   padding: 3em 0;
 }
 
-.social-link > li > a {
-  height: 50px;
-  width: 50px;
-}
-
 .social-link-wrapper {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .links > li {
