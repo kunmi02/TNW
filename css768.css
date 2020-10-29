@@ -25,6 +25,10 @@ body {
 .wrappernav {
   border-bottom: none;
 }
+.bigscreen-menu,.big-screen-menu-2{
+  display: none;
+}
+
 
 .border768 {
   border-bottom: 61px solid rgba(189, 189, 189, 0.2);
