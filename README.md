@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/kunmi02/TNW/adcea3c2fc5abe6ac703874f27d0fe5980ff2dfc/index.html)
+[Live Demo Link](https://raw.githack.com/kunmi02/TNW/desktop1024/index.html)
 
 ## Automated Test
 
