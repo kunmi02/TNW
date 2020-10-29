@@ -1,59 +1,58 @@
-# TNW
+## Cloning the TNW(tnw.com) Homepage using a mobile first approach different positioning methods and making the webpage responsive.
 
-Cloning the TNW Homepage using different positioning methods. 
+    This is a project that clones the TNW Home Page. The purpose of this project is to practice positioning, gradient & media queries.
 
-    This is a project that clones the TNW Home Page. The purpose of this project is to practice positioning and gradient.
+    Break Points:
 
+    Mobile Site - Minimum Width - 375px
+    Tablet Site - Minimum Width - 768px
+    Desktop Site - Minimum Width - 1024px
 
+![Screenshot](assets/iphoneshot.png "Screenshot of mobile first site")
 
-![Iphone Screenshot](assets/iphoneshot.png "Screenshot of mobile first site")
+## Built With
 
+- Html,
+- CSS,
+- Linter,
+- VS Code
 
+## Live Demo
 
-Remake of home page from The Next Web(TNW.com).
+[Live Demo Link](https://rawcdn.githack.com/kunmi02/TNW/fcf76243948b8a135d3b534d99b46bdcaa73826d/index.html)
 
-Built With
+## Automated Test
 
-    Html,
-    CSS,
-    Linter,
-    VS Code
+> There are no automated tests for this project yet.
 
-Live Demo
+## Authors
 
-Live Demo Link
+👤 **Author1**
 
-Automated Test
+- Github: [@akshay-narkar]
+- Twitter: [@akidoit]
 
-    There are no automated tests for this project yet.
+👤 **Author2**
 
-Authors
+- Github: [@kunmi02]
+- Linkedin: [akinkunmi006]
 
-bust_in_silhouette Author1
-
-    Github: @akshay-narkar
-    Twitter:@akidoit
-
-bust_in_silhouette Author2
-
-    Github: @kunmi02
-    Twitter: @akinkunmi006
-
-handshake Contributing
+## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
 
-    Forking the project
-    Cloning the project to your local machine
-    cd into the project directory
-    Run git checkout -b your-branch-name
-    Make your contributions
-    Push your branch up to your forked repository
-    Open a Pull Request with a detailed description to the development branch of the original project for a review
+- Forking the project
+- Cloning the project to your local machine
+- `cd` into the project directory
+- Run `git checkout -b your-branch-name`
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Show your support
+## Show your support
 
-Give a star if you like this project!
-memo License
+Give a :star: if you like this project!
 
-This project is MIT licensed
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
