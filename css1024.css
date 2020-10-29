@@ -105,6 +105,17 @@ body {
   height: 114px;
 }
 
+/* .fork-container1024 {
+    /* padding: 0px; 
+    display: grid;
+    /* grid-row-gap: 0px;
+    grid-column-gap: 0px; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-column-gap: 8px;
+    grid-row-gap: 8px; 
+} */
+
 /*.latest-new-contents-text {
   padding-left: 0;
   margin-left: 1px;
@@ -137,5 +148,5 @@ body {
 }
 
 .display-hide {
-  display: unset;
+  display: none;
 }
