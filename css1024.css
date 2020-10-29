@@ -8,7 +8,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  color: #555555;
+  color: #555;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   max-width: 1024px;
 }
@@ -25,18 +25,23 @@ body {
   font-weight: 500;
   line-height: 32px;
   max-height: 32px;
-  color: hsla(0,0%,100%,.6);
-  padding: .15rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding: 0.15rem;
 }
 
-.bigscreen-menu ul, 
+.bigscreen-menu ul,
 .big-screen-menu-2 ul {
   display: flex;
+}
+
+.padlist li {
+  padding: 0.15rem;
 }
 
 .bigscreen-menu ul > li {
   padding-right: 1rem;
 }
+
 .left-marging {
   margin-left: 1rem;
 }
@@ -45,27 +50,23 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
-  font-family: Shentox,sans-serif;
+  font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
   height: 48px;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1;
-
 }
 
-.padlist li {
-  padding: .15rem;
-}
- .cover-grid {
+.cover-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
   background-position: center;
   background-repeat: no-repeat;
-   grid-gap: 5px;
-   margin: 0 auto;
+  grid-gap: 5px;
+  margin: 0 auto;
 }
 
 .cover-margin-top {
@@ -84,13 +85,14 @@ body {
   height: 300px;
   width: 100%;
   background-position: center;
-  
 }
-.latest-news{
+
+.latest-news {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto;
 }
+
 .latest-new-contents {
   display: flex;
   flex-direction: column;
@@ -99,40 +101,17 @@ body {
   padding-bottom: 12px;
 }
 
- .latest-new-contents img {
+.latest-new-contents img {
   text-align: center;
   width: 228px;
   height: 114px;
 }
 
-/* .fork-container1024 {
-    /* padding: 0px; 
-    display: grid;
-    /* grid-row-gap: 0px;
-    grid-column-gap: 0px; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-rows: repeat(3, 1fr); */
-    /* grid-column-gap: 8px;
-    grid-row-gap: 8px; 
-} */
-
-/*.latest-new-contents-text {
-  padding-left: 0;
-  margin-left: 1px;
-  font-size: 13px;
-  font-weight: bolder;
-  color: black;
-}
-
-
-.latest-new-contents-author {
-  color: #555;
-}*/
-
 .header-funds1024 {
   display: flex;
   justify-content: space-between;
 }
+
 .header-funds1024-text {
   display: flex;
 }
