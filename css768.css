@@ -9,6 +9,14 @@ body {
   margin-top: 3.85em;
 }
 
+/* header */
+
+.navlogo:hover > a {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
+  background-position: 50%;
+  background-size: cover;
+}
+
 /* cover */
 
 .cover {
