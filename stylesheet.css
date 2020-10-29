@@ -6,6 +6,10 @@ body {
   max-width: 768px;
 }
 
+.bigscreen-menu,.big-screen-menu-2{
+  display: none;
+}
+
 .redcolor {
   color: #f42;
 }
