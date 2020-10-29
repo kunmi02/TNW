@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  color: #555555;
+  color: #555;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   max-width: 768px;
 }
 
-.bigscreen-menu,.big-screen-menu-2{
+.bigscreen-menu,
+.big-screen-menu-2 {
   display: none;
 }
 
@@ -47,12 +48,27 @@ ul {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  font-family: "Avalon", sans-serif;
+}
+
 .navlogo > a {
   background-color: #000;
   display: block;
   height: 18px;
   padding: 16px 20px;
   width: 70px;
+}
+
+.social-link li a {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
 }
 
 .navlogo:hover > a {
@@ -79,11 +95,6 @@ li.list {
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
-  font-family: "Avalon", sans-serif;
-}
-
 .cover-image {
   position: relative;
   max-width: 768px;
@@ -92,7 +103,6 @@ a {
   padding: 5px;
   font-family: "Avalon", sans-serif;
   background-image: url("assets/slide1.jpg");
-  /* background-position: center; */
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
   top: 50px;
@@ -148,7 +158,6 @@ li.insideauthor {
 
 .latestnews {
   font-size: 24px;
-  /* font-family: "Maquette", Helvetica Neue, Arial, sans-serif; */
   color: #f42;
   padding-left: 8px;
 }
@@ -156,7 +165,6 @@ li.insideauthor {
 .article-wrap {
   padding: 8px;
   margin-top: 12px;
-  /* display: flex; */
   list-style: none;
 }
 
@@ -169,7 +177,7 @@ li.insideauthor {
   display: block;
   margin: 0 10px 5px 8px;
   font-size: 13px;
-  color: #555555;
+  color: #555;
   font-weight: 700;
   line-height: 18px;
 }
@@ -199,7 +207,7 @@ li.insideauthor {
 .pricestyle {
   font-size: 12px;
   margin-left: 8px;
-  opacity: 40%;
+  opacity: 0.5;
 }
 
 .strikethrough {
@@ -305,7 +313,6 @@ p.investment-text {
   font-size: 13px;
   color: #555;
   margin-right: 1em;
-  display: block;
   line-height: 22px;
 }
 
@@ -362,9 +369,10 @@ footer {
   width: 16px;
   color: white;
 }
+
 .social-link li {
   display: inline-block;
-  background-color: #333333;
+  background-color: #333;
   margin: 2px;
   border-radius: 50%;
 }
@@ -372,16 +380,6 @@ footer {
 .social-link-wrapper {
   background: #131313;
   padding: 2.5em 0;
-}
-
-.social-link li a {
-  color: white;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  text-decoration: none;
-  height: 40px;
-  width: 40px;
 }
 
 .links li {
@@ -406,6 +404,7 @@ footer {
   max-width: 768px;
   padding: 0 20px;
 }
+
 .copyright img {
   height: 8px;
 }
@@ -438,7 +437,7 @@ ul.social-link {
 /* fork */
 
 .fork {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .fork-image {
@@ -449,7 +448,6 @@ ul.social-link {
   padding: 5px;
   font-family: "Avalon", sans-serif;
   background-image: url("assets/slide1.jpg");
-  /* background-position: center; */
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
   top: 10px;
