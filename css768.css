@@ -45,6 +45,13 @@ body {
   background-position: center;
 }
 
+ul.author {
+  padding-top: 8px;
+}
+
+li.no-share {
+  display: none;
+}
 /* articlequery */
 
 .article-grid {
@@ -116,6 +123,14 @@ body {
 .fork-container > .image1 {
   width: auto;
   height: 266px;
+}
+
+h2.latest-fork {
+  padding-top: 2px;
+}
+
+.latest-fork {
+  font-size: 13px;
 }
 
 /* footer */
