@@ -43,6 +43,7 @@
 
 .tnw-overlay img {
   width: 278px;
+  height: 68px;
 }
 
 .time-color {
@@ -51,12 +52,17 @@
 }
 
 .color-gradient {
-  background: 
+  background:
     linear-gradient(
-    to top left,
-    rgba(245, 246, 252, 0.486),
-    rgba(243, 12, 12, 0.705)
-  );
+      to top left,
+      rgba(245, 246, 252, 0.486),
+      rgba(243, 12, 12, 0.705)
+    );
+  min-height: 436px;
+}
+
+.tnw-centre-logo {
+  min-height: 100%;
 }
 
 .big-screen-menu-2 {
@@ -105,6 +111,7 @@
   max-width: 100%;
   max-height: 230px;
   padding-bottom: 12px;
+  margin-bottom: 7%;
 }
 
 .latest-new-contents img {
@@ -160,7 +167,7 @@ h2.cover-title768 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 2rem;
+  grid-column-gap: 0;
   grid-row-gap: 8px;
 }
 
@@ -180,7 +187,7 @@ h2.cover-title768 {
 }
 
 .latest-margin-bottom {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .latest-margin-top {
@@ -222,4 +229,8 @@ ul.links > li {
 
 ul.links {
   padding-bottom: 1.5em;
+}
+
+.border768 {
+  box-shadow: 0 17px rgba(189, 189, 189, 0.2);
 }

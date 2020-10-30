@@ -328,7 +328,7 @@ p.investment-text {
 .fund-logo {
   margin: 0 10px 10px;
   position: absolute;
-  top: 3px;
+  top: 0;
   left: -9px;
   width: 17px;
   height: 22px;
@@ -464,19 +464,20 @@ ul.social-link {
 }
 
 .hardfork-latest {
-  display: flex;
   margin: 0 8px;
   position: relative;
 }
 
 .hardfork-news {
-  max-width: 73%;
+  max-width: 100%;
+  max-height: 97px;
   background: rgba(255, 68, 34, 0.03);
 }
 
 .latest-fork {
   padding: 8px 14px 0;
   font-size: 15px;
+  width: 60%;
 }
 
 .fork-heading {

@@ -27,10 +27,6 @@ body {
   height: 24px;
 }
 
-.wrappernav {
-  border-bottom: none;
-}
-
 .bigscreen-menu,
 .big-screen-menu-2 {
   display: none;
