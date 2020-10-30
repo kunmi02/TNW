@@ -1,4 +1,3 @@
-
 .small-screen-menu {
   display: none;
 }
@@ -43,7 +42,7 @@
 }
 
 .tnw-overlay img {
-  height: 150px;
+  width: 278px;
 }
 
 .time-color {
@@ -52,7 +51,11 @@
 }
 
 .color-gradient {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+  background: linear-gradient(
+    to top left,
+    rgba(245, 246, 252, 0.486),
+    rgba(243, 12, 12, 0.705)
+  );
 }
 
 .big-screen-menu-2 {
@@ -63,7 +66,6 @@
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
-  height: 48px;
   letter-spacing: 0.04em;
   line-height: 1;
 }
@@ -90,12 +92,12 @@
   max-height: 100%; */
   grid-area: 1 / 1 / 3 / 3;
   /* height: 498px; */
-  width: 100%;
+  height: 100%;
   background-position: center;
 }
 
 .image2 {
-  min-width: 99%;
+  max-width: 100%;
   /* min-height: 100%; */
   background-position: center;
 }
@@ -103,6 +105,8 @@
 .latest-news1024 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
 }
 
 .latest-new-contents {
@@ -145,17 +149,16 @@
 .fork-big-screen,
 .deals1024 {
   margin: 0 auto;
-  padding: 0 20px;
-  width: 1192px;
+  padding: 25px 0;
 }
 
 h2.cover-title768 {
   line-height: 1.3;
-  font-size: 52px;
+  font-size: 42px;
 }
 
 .funds1024-margin {
-  margin-top: -5.5rem;
+  margin-top: -1.5rem;
 }
 
 .hide {
@@ -163,7 +166,7 @@ h2.cover-title768 {
 }
 
 .fork1024 {
-  padding: 0;
+  padding: 0 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -182,7 +185,8 @@ h2.cover-title768 {
 
 .deals-margin {
   margin-top: 3rem;
-  margin-bottom: 9rem;
+  margin-bottom: 5rem;
+  padding: 0 40px;
 }
 
 .latest-margin-bottom {
@@ -192,3 +196,28 @@ h2.cover-title768 {
 .latest-margin-top {
   margin-top: 5rem;
 }
+
+.first-banner-image {
+  margin: 0;
+  padding: 0;
+}
+
+.cover-image {
+  top: 0;
+  margin: 0;
+}
+
+.fork-container > .image1 {
+  height: 240px;
+  width: auto;
+}
+
+/* 
+.image1 {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 30, 0, 0.4),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("assets/slide1.jpg");
+} */
