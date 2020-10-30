@@ -212,12 +212,23 @@ h2.cover-title768 {
   width: auto;
 }
 
-/* 
-.image1 {
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(255, 30, 0, 0.4),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("assets/slide1.jpg");
-} */
+.copyright {
+  padding: 3em 0;
+}
+
+.social-link-wrapper {
+  padding-bottom: 0;
+}
+
+.links > li {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.amsterdam {
+  display: inline;
+}
+
+ul.links {
+  padding-bottom: 1.5em;
+}
