@@ -322,12 +322,13 @@ p.investment-text {
 
 .fund-essentials {
   position: relative;
+  display: block;
 }
 
 .fund-logo {
-  margin: 10.6666666667px;
+  margin: 0 10px 10px;
   position: absolute;
-  top: 6px;
+  top: 3px;
   left: -9px;
   width: 17px;
   height: 22px;
@@ -521,4 +522,8 @@ ul.social-link {
 
 .fork-container {
   padding-top: 19px;
+}
+
+.hide {
+  display: none;
 }
