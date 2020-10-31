@@ -470,7 +470,7 @@ ul.social-link {
 
 .hardfork-news {
   max-width: 100%;
-  max-height: 97px;
+  min-height: 97px;
   background: rgba(255, 68, 34, 0.03);
 }
 
