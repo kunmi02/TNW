@@ -139,12 +139,13 @@ h5 {
 
 li.insideauthor {
   display: inline;
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-size: 12px;
   line-height: 16px;
 }
 
 /* latestnews */
+
 .news {
   margin: 6% auto 0;
   padding: 3%;
@@ -178,10 +179,11 @@ li.insideauthor {
   color: #555;
   font-weight: 700;
   line-height: 18px;
-}
-.article-link:hover {
-  text-decoration: underline;
-  color: #f42;
+
+  &:hover {
+    text-decoration: underline;
+    color: #f42;
+  }
 }
 
 .image-author {
@@ -200,6 +202,7 @@ li.insideauthor {
 }
 
 /* deals section */
+
 .pricestyle {
   font-size: 12px;
   margin-left: 8px;
@@ -244,6 +247,7 @@ p.redcolor {
 }
 
 /* Funding section */
+
 .card {
   margin: 0 8px 18px;
   position: relative;
@@ -268,9 +272,11 @@ p.redcolor {
   background: rgba(255, 68, 34, 0.08);
 }
 
-p.company-text, p.investment-text {
-  margin: 0;
-  padding: 0;
+p {
+  &.company-text, &.investment-text {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .seriestext {
@@ -304,9 +310,10 @@ p.company-text, p.investment-text {
   color: #555;
   margin-right: 1em;
   line-height: 22px;
-}
-.fund-text:hover {
-  color: #000;
+
+  &:hover {
+    color: #000;
+  }
 }
 
 .fund-essentials {
@@ -344,6 +351,7 @@ p.company-text, p.investment-text {
 }
 
 /* footer style */
+
 footer {
   position: relative;
   bottom: 0;
@@ -403,10 +411,11 @@ footer {
 }
 
 .footer-links {
-  color: #adadad;
-}
-.footer-links:hover {
-  color: white;
+  color: rgba(173, 173, 173, 1);
+
+  &:hover {
+    color: white;
+  }
 }
 
 p.amsterdam {
@@ -419,10 +428,11 @@ ul.social-link {
 }
 
 .fa:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 /* fork */
+
 .fork {
   margin-top: 0;
 }
@@ -500,10 +510,11 @@ ul.social-link {
 }
 
 .hard-fork-link {
-  color: #4e4e4e;
-}
-.hard-fork-link:hover {
-  color: black;
+  color: rgba(78, 78, 78, 1);
+
+  &:hover {
+    color: rgba(0, 0, 0, 1);
+  }
 }
 
 .fork-container {
@@ -513,5 +524,3 @@ ul.social-link {
 .hide {
   display: none;
 }
-
-/*# sourceMappingURL=stylesheet.css.map */
